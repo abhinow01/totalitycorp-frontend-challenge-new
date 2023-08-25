@@ -1,0 +1,43 @@
+/* .App {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+*/
+body {
+  padding: 0;
+  margin: 0;
+  
+} 
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+
+}
+
+/* Styles for screens up to 480px wide (typically mobile devices) */
+@media (max-width: 500px) {
+  /* Further adjustments for smaller screens */
+  /* .shop {
+    display: block; /* Change to block layout */
+    /* text-align: center; /* Center align the contents */
+    /* margin: 10px auto; Adjust margins for spacing */ 
+  /* }  */
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    max-width: 100%;
+    overflow-y: auto;
+  }
+
+  .shopTitle{
+    max-width: 100%;
+  }
+  .navbar{
+    max-width: 100%;
+  }
+
+}

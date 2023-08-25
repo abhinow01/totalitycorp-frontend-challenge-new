@@ -1,0 +1,95 @@
+.shopTitle{
+    margin-top: 100px;
+    text-align: center;
+    font-size:30px;
+}
+
+.products{
+    width: 100%;
+    height: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.product{
+ border-radius: 15px;
+  width: 300px;
+  height: 350px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product img{
+    width: 200px;
+    height: 180px;
+    /* margin-bottom: 70px; */
+}
+
+.product .description{
+    text-align: center;
+}
+
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  .addToCartBttn {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    /* margin-bottom: 70px; */
+  }
+  
+  .addToCartBttn:hover {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    cursor: pointer;
+  }
+
+  .search-bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    height:50px;
+    /* width:500%; */
+    border-radius: 6px;
+    background-color: transparent;
+    
+}
+
+  @media (max-width: 500px) {
+    /* Further adjustments for smaller screens */
+    .shop {
+      display: block; /* Change to block layout */
+      text-align: center; /* Center align the contents */
+      margin: 10px auto; /* Adjust margins for spacing */
+    }
+    .producs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* justify-content: center; */
+      max-width: 100%;
+      overflow-y: auto;
+    }
+  
+    .shopTitle{
+      max-width: 100%;
+    }
+    .navbar{
+      max-width: 100%;
+    }
+  
+  }
