@@ -1,3 +1,16 @@
+#E- commerce website Readme 
+- Browse and search through the available products using the integrated search bar.
+- Easily adjust the quantity of items to purchase, and see the total bill update in real-time.
+- Utilize global state management using Context API for a consistent shopping experience.
+- Smooth navigation between different sections using React Router.
+- Streamlined checkout process with a modal for entering user details and payment.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
