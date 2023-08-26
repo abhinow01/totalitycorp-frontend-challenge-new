@@ -1,7 +1,7 @@
 import React ,{useState}from "react";
-import {PRODUCTS} from "src/products.js"
-import {Product} from 'src/pages/shop/product.jsx';
-import SearchBar from "src/components /SearchBar.jsx";
+import {PRODUCTS} from "../../products.js"
+import {Product} from './product.jsx';
+import SearchBar from "../../SearchBar.jsx";
 import "./shop.css";
 
 export const Shop = ()=>{
