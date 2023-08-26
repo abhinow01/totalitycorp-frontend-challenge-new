@@ -1,4 +1,4 @@
-#E- commerce website Readme 
+# E- commerce website 
 - Browse and search through the available products using the integrated search bar.
 - Easily adjust the quantity of items to purchase, and see the total bill update in real-time.
 - Utilize global state management using Context API for a consistent shopping experience.
